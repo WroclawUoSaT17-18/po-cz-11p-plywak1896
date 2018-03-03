@@ -11,7 +11,7 @@ namespace PierwszaAplikacja
         static void Main(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine("Witam w programie liczącym średnią.");
+            Console.WriteLine("Witam w programie liczącym średnią..");
             Console.WriteLine("Proszę podać pierwszą ocenę:");
             float d = float.Parse(Console.ReadLine());
             Console.WriteLine("Proszę podać drugą ocenę:");
