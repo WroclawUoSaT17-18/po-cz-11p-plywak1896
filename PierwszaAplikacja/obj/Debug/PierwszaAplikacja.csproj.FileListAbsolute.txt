@@ -1,0 +1,7 @@
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.exe.config
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.exe
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.pdb
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.exe
+C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.pdb
