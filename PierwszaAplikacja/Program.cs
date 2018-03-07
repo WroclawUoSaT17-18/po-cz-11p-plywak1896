@@ -26,7 +26,7 @@ namespace PierwszaAplikacja
                 Console.WriteLine("Proszę podać trzecią ocenę (Metrologia Elektryczna):");
                 double f = double.Parse(Console.ReadLine());
                 student student1 = new student(d, e, f, h);
-                Console.WriteLine(student1.Srednia());//
+                Console.WriteLine(student1.Srednia());
                 
             }
             
