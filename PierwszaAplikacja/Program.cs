@@ -19,7 +19,7 @@ namespace PierwszaAplikacja
             Console.WriteLine("Proszę podać trzecią ocenę:");
             float f = float.Parse(Console.ReadLine());
             student student1 = new student(d,e,f);
-            Console.WriteLine(student1.srednia());
+            Console.WriteLine(student1.Srednia());
             Console.ReadKey(); 
         }
     }
@@ -37,10 +37,12 @@ class student
      b = b2;
      c = c3;
 }
-    public float srednia()
+    public float Srednia()
     {
     Console.WriteLine("Średnia ma wartość:");
         return ((a + b + c) / 3);
         
     }
 }
+
+

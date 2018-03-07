@@ -5,3 +5,10 @@ C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\Pierw
 C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csproj.CoreCompileInputs.cache
 C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.exe
 C:\Users\Ezojil\source\repos\PierwszaAplikacja\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.exe.config
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.exe
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\bin\Debug\PierwszaAplikacja.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.exe
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\PierwszaAplikacja\obj\Debug\PierwszaAplikacja.pdb
