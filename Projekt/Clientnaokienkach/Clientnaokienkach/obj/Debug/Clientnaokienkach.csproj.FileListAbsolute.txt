@@ -1,0 +1,15 @@
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\MainWindow.g.cs
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\App.g.cs
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach_MarkupCompile.cache
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach_MarkupCompile.lref
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\bin\Debug\Clientnaokienkach.exe.config
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\bin\Debug\Clientnaokienkach.exe
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\bin\Debug\Clientnaokienkach.pdb
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\MainWindow.baml
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.g.resources
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.Properties.Resources.resources
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.csproj.GenerateResource.cache
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.exe
+C:\Users\Ezojil\Desktop\Clientnaokienkach\Clientnaokienkach\obj\Debug\Clientnaokienkach.pdb

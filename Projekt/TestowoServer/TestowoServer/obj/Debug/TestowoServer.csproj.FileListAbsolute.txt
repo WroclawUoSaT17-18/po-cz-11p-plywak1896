@@ -1,0 +1,7 @@
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\bin\Debug\TestowoServer.exe.config
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\bin\Debug\TestowoServer.exe
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\bin\Debug\TestowoServer.pdb
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.exe
+C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.pdb
