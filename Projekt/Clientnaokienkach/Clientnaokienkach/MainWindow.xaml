@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clientnaokienkach"
         mc:Ignorable="d"
-        Title="Klient Główny" Height="163.197" Width="685.294">
-	<Grid Margin="0,0,2,1">
+        Title="Klient Główny" Height="164.671" Width="685.294">
+	<Grid Margin="0,0,2,-43">
 		<TextBox x:Name="txb" HorizontalAlignment="Left" Height="73" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="478" TextChanged="txt_dane_TextChanged"/>
 		<Button x:Name="button_send" Content="Wyślij" HorizontalAlignment="Left" Height="73" Margin="493,10,0,0" VerticalAlignment="Top" Width="170" Click="button_send_Click"/>
 		<Button x:Name="button_con" Content="Połącz" HorizontalAlignment="Left" Height="40" Margin="10,88,0,0" VerticalAlignment="Top" Width="130" IsCancel="True" Click="button_con_Click"/>
+		<Button x:Name="button_dis" Content="Rozłącz" HorizontalAlignment="Left" Margin="145,88,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="button_dis_Click"/>
+		<TextBlock x:Name="txt_sts" HorizontalAlignment="Left" Height="17" Margin="280,88,0,0" TextWrapping="Wrap" Text="Brak połączenia" VerticalAlignment="Top" Width="265"/>
 
 	</Grid>
 </Window>

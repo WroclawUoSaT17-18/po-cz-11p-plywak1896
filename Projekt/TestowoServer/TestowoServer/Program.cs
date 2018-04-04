@@ -14,20 +14,44 @@ namespace ConsoleApplication1
         {
 
             TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1024); // nasz serwer
-
-            
-                listener.Start(); // rozpoczęcie nasłuchiwania 
-            
-            TcpClient newClient = listener.AcceptTcpClient(); // akceptacja
-            Console.WriteLine("Połączono nowego klienta");
-
-
-            for (; ; ) // pętla nieskończoności
+           
+            try
             {
-                BinaryReader reader = new BinaryReader(newClient.GetStream());
-                Console.WriteLine(reader.ReadString());
+                listener.Start(); // rozpoczęcie nasłuchiwania 
+                
 
             }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.Read();
+            }
+
+            try
+            {
+
+               
+                TcpClient newClient = listener.AcceptTcpClient(); // akceptacja
+                Console.WriteLine("Połączono nowego klienta");
+                
+                while (true)
+                {
+                BinaryReader reader = new BinaryReader(newClient.GetStream());
+                Console.WriteLine("Klient przesyła:" + reader.ReadString());
+                }
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.Read();
+
+            }
+            
         }
     }
 }
+
+
+

@@ -5,3 +5,10 @@ C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.cspr
 C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.csproj.CoreCompileInputs.cache
 C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.exe
 C:\Users\Ezojil\Desktop\TestowoServer\TestowoServer\obj\Debug\TestowoServer.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\bin\Debug\TestowoServer.exe.config
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\bin\Debug\TestowoServer.exe
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\bin\Debug\TestowoServer.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\obj\Debug\TestowoServer.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\obj\Debug\TestowoServer.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\obj\Debug\TestowoServer.exe
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\TestowoServer\TestowoServer\obj\Debug\TestowoServer.pdb

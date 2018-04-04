@@ -34,24 +34,41 @@ namespace Clientnaokienkach
         }
 
         public string tekst;
-        TcpClient externalClient = new TcpClient(); // tworzymy zewnętrznego klienta
+        TcpClient externalClient = new TcpClient(); // tworzymy klienta
         
 
         private void button_con_Click(object sender, RoutedEventArgs e)
         {
-            
-            externalClient.Connect("127.0.0.1", 1024); // próba połączenia
+            try
+            {
+                externalClient.Connect("127.0.0.1", 1024); // próba połączenia
+                txt_sts.Text = "Połączono.";
 
-            
+            }
 
+            catch
+            {
+                
+            }
 
         }
 
         private void button_send_Click(object sender, RoutedEventArgs e)
         {
-            tekst = (txb.Text); 
-            BinaryWriter writer = new BinaryWriter(externalClient.GetStream()); // nowy strumień
-            writer.Write(tekst);
+            tekst = (txb.Text);
+            try
+            {
+                BinaryWriter writer = new BinaryWriter(externalClient.GetStream()); // nowy strumień
+                writer.Write(tekst);
+                
+
+            }
+
+            catch
+            {
+                txt_sts.Text = "Brak połączenia.";
+
+            }
 
         }
 
@@ -60,6 +77,11 @@ namespace Clientnaokienkach
 
         }
 
-        
+        private void button_dis_Click(object sender, RoutedEventArgs e)
+        {
+            externalClient.Close();
+            txt_sts.Text = "Brak połączenia.";
+
+        }
     }
 }
