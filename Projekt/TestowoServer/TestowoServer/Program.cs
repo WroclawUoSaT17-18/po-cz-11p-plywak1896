@@ -12,43 +12,56 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-
-            TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1024); // nasz serwer
-           
-            try
-            {
-                listener.Start(); // rozpoczęcie nasłuchiwania 
-                
-
-            }
-
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                Console.Read();
-            }
-
-            try
-            {
-
-               
-                TcpClient newClient = listener.AcceptTcpClient(); // akceptacja
-                Console.WriteLine("Połączono nowego klienta");
-                
-                while (true)
+            TcpListener listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1024);
+                try
                 {
-                BinaryReader reader = new BinaryReader(newClient.GetStream());
-                Console.WriteLine("Klient przesyła:" + reader.ReadString());
+                    listener.Start(); // rozpoczęcie nasłuchiwania 
+
+
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                    Console.Read();
+                }
+
+            for (; ; )
+            {
+                
+                
+
+
+
+                try
+                {
+
+                    bool check = true;
+                    TcpClient newClient = listener.AcceptTcpClient(); // akceptacja
+                    Console.WriteLine("Połączono nowego klienta");
+
+                    while (check)
+                    {
+                        BinaryReader reader = new BinaryReader(newClient.GetStream());
+                        Console.WriteLine("Klient przesyła:" + reader.ReadString());
+                        if (reader.ReadString() == "1")
+                        {
+                            check = false;
+                        }
+
+                    }
+                    newClient.Close();
+                   // Console.ReadKey();
+
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                    Console.Read();
+
                 }
             }
-
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                Console.Read();
-
-            }
-            
         }
     }
 }

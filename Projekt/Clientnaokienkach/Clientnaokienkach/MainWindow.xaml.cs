@@ -39,8 +39,10 @@ namespace Clientnaokienkach
 
         private void button_con_Click(object sender, RoutedEventArgs e)
         {
+            externalClient = new TcpClient();
             try
             {
+
                 externalClient.Connect("127.0.0.1", 1024); // próba połączenia
                 txt_sts.Text = "Połączono.";
 
@@ -55,7 +57,7 @@ namespace Clientnaokienkach
 
         private void button_send_Click(object sender, RoutedEventArgs e)
         {
-            tekst = (txb.Text);
+            tekst = txb.Text;
             try
             {
                 BinaryWriter writer = new BinaryWriter(externalClient.GetStream()); // nowy strumień
@@ -79,6 +81,9 @@ namespace Clientnaokienkach
 
         private void button_dis_Click(object sender, RoutedEventArgs e)
         {
+            BinaryWriter writer = new BinaryWriter(externalClient.GetStream()); // nowy strumień
+            writer.Write("1");
+
             externalClient.Close();
             txt_sts.Text = "Brak połączenia.";
 
