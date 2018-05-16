@@ -43,16 +43,19 @@ namespace ConsoleApplication1
                     while (check)
                     {
                         BinaryReader reader = new BinaryReader(newClient.GetStream());
-                        Console.WriteLine("Klient przesyła:" + reader.ReadString());
-                        if (reader.ReadString() == "1")
+                        String value = reader.ReadString();
+                        
+                        if (value == "#!32")
                         {
                             check = false;
                         }
-
+                        else
+                         {
+                        Console.WriteLine("Klient przesyła:" + value);
+                         }
                     }
                     newClient.Close();
-                   // Console.ReadKey();
-
+                   
                 }
 
                 catch (Exception ex)
@@ -65,6 +68,3 @@ namespace ConsoleApplication1
         }
     }
 }
-
-
-
