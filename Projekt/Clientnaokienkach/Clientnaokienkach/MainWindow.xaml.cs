@@ -114,7 +114,8 @@ namespace Clientnaokienkach
             pizza2.Nazwa = "Salami";
             pizza2.Skladniki = "sos, salami";
 
-            combobox1.Items.Add(pizza1);
+            combobox1.Items.Add(pizza1.Nazwa + " " + pizza1.Nazwa);
+       
             combobox1.Items.Add(pizza2);
             combobox1.Items.Add("Marysia");
             combobox1.Items.Add("Salami");
