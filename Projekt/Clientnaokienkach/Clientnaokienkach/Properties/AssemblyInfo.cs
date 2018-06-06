@@ -53,3 +53,7 @@ using System.Windows;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: InternalsVisibleTo("Klient.Tests")]
+[assembly: InternalsVisibleTo("Klient.Explorables")]
+[assembly: InternalsVisibleTo("Klient.Tests1")]
+

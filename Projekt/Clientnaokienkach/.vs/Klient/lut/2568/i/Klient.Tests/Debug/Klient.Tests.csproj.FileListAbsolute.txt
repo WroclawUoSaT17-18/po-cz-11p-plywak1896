@@ -1,0 +1,9 @@
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\Klient.Tests.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\Klient.Tests.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient.Tests\Debug\Klient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient.Tests\Debug\Klient.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient.Tests\Debug\Klient.Tests.csproj.CopyComplete
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient.Tests\Debug\Klient.Tests.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient.Tests\Debug\Klient.Tests.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\Klient.Tests\bin\Debug\Klient.Tests.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\Klient.Tests\bin\Debug\Klient.Tests.pdb
