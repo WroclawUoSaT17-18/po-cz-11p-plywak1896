@@ -12,4 +12,6 @@ namespace Clientnaokienkach
       public string Skladniki { get; set; }
 
     }
+
+    
 }

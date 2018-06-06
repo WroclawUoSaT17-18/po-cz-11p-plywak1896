@@ -26,7 +26,7 @@ namespace Clientnaokienkach
     public partial class MainWindow : Window
     {
 
-        
+
 
         public MainWindow()
         {
@@ -36,8 +36,10 @@ namespace Clientnaokienkach
 
         public string tekst;
         TcpClient externalClient = new TcpClient(); // tworzymy klienta
+        bool check = true;
 
-
+        
+            
         private void button_con_Click(object sender, RoutedEventArgs e)
         {
             externalClient = new TcpClient();
@@ -82,12 +84,18 @@ namespace Clientnaokienkach
 
         private void button_dis_Click(object sender, RoutedEventArgs e)
         {
-            BinaryWriter writer = new BinaryWriter(externalClient.GetStream());
-            writer.Write("#!32");
+            try
+            {
+                BinaryWriter writer = new BinaryWriter(externalClient.GetStream());
+                writer.Write("#!32");
 
-            externalClient.Close();
-            txt_sts.Text = "Brak połączenia.";
+                externalClient.Close();
+                txt_sts.Text = "Brak połączenia.";
+            }
+            catch
+            {
 
+            }
         }
 
         void DataWindow_Closing(object sender, CancelEventArgs e)
@@ -105,23 +113,21 @@ namespace Clientnaokienkach
 
             private void Button_Click(object sender, RoutedEventArgs e)
         {
-            txa.Text = "Stworzono nowe zamówienie.";
-            txb.Text = null;
-            Pizza pizza1 = new Pizza();
-            pizza1.Nazwa = "Marysia";
-            pizza1.Skladniki = "sos";
-            Pizza pizza2 = new Pizza();
-            pizza2.Nazwa = "Salami";
-            pizza2.Skladniki = "sos, salami";
-
-            combobox1.Items.Add(pizza1);
-            combobox1.Items.Add(pizza2);
-            combobox1.Items.Add("Marysia");
-            combobox1.Items.Add("Salami");
-
-
-
-
+            
+            while (check)
+            {
+                Pizza pizza1 = new Pizza();
+                pizza1.Nazwa = "Marysia";
+                pizza1.Skladniki = "sos";
+                Pizza pizza2 = new Pizza();
+                pizza2.Nazwa = "Salami";
+                pizza2.Skladniki = "sos, salami";
+                txa.Text = "Stworzono nowe zamówienie.";
+                txb.Text = null;
+                combobox1.Items.Add(pizza1.Nazwa);
+                combobox1.Items.Add(pizza2.Nazwa);
+                check = false;
+            }
         }
 
         private void _1_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -133,6 +139,15 @@ namespace Clientnaokienkach
         {
             txb.Text = (combobox1.Text);
             
+
+    }
+
+        private void button_clr_Click(object sender, RoutedEventArgs e)
+        {
+            txb.Text = null;
+            combobox1.Items.Clear();
+            check = true;
+            txa.Text = "Zamówienie usunięte.";
         }
     }
 }
