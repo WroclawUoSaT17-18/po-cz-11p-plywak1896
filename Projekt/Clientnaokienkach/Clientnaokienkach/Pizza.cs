@@ -10,6 +10,7 @@ namespace Clientnaokienkach
     {
       public string Nazwa { get; set; }
       public string Skladniki { get; set; }
+      public int Cena { get; set; }
 
     }
 

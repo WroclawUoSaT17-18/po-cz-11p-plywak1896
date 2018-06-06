@@ -37,9 +37,15 @@ namespace Clientnaokienkach
         public string tekst;
         TcpClient externalClient = new TcpClient(); // tworzymy klienta
         bool check = true;
+        Pizza pizza1 = new Pizza();
+        Pizza pizza2 = new Pizza();
+        Pizza pizza3 = new Pizza();
+        Pizza pizza4 = new Pizza();
+        Pizza pizza5 = new Pizza();
+        Pizza pizza6 = new Pizza();
+        int suma;
 
-        
-            
+
         private void button_con_Click(object sender, RoutedEventArgs e)
         {
             externalClient = new TcpClient();
@@ -60,11 +66,13 @@ namespace Clientnaokienkach
 
         private void button_send_Click(object sender, RoutedEventArgs e)
         {
-            tekst = txb.Text;
+            tekst = txb.Text + "Cena końcowa:" + cena.Text;
             try
             {
                 BinaryWriter writer = new BinaryWriter(externalClient.GetStream()); // nowy strumień
                 writer.Write(tekst);
+                
+
 
 
             }
@@ -116,38 +124,106 @@ namespace Clientnaokienkach
             
             while (check)
             {
-                Pizza pizza1 = new Pizza();
+                
                 pizza1.Nazwa = "Marysia";
                 pizza1.Skladniki = "sos";
-                Pizza pizza2 = new Pizza();
+                pizza1.Cena = 10;
                 pizza2.Nazwa = "Salami";
                 pizza2.Skladniki = "sos, salami";
+                pizza2.Cena = 12;
+                pizza3.Nazwa = "Serowa";
+                pizza3.Skladniki = "sos, ser";
+                pizza3.Cena = 13;
+                pizza4.Nazwa = "Wege";
+                pizza4.Skladniki = "sos, warzywa";
+                pizza4.Cena = 12;
+                pizza5.Nazwa = "Mięsna";
+                pizza5.Skladniki = "sos, salami, szynka";
+                pizza5.Cena = 14;
+                pizza6.Nazwa = "Hawajska";
+                pizza6.Skladniki = "sos, szynka, ananas";
+                pizza6.Cena = 12;
+
                 txa.Text = "Stworzono nowe zamówienie.";
                 txb.Text = null;
-                combobox1.Items.Add(pizza1.Nazwa);
-                combobox1.Items.Add(pizza2.Nazwa);
                 check = false;
             }
         }
 
-        private void _1_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void button_add_Click(object sender, RoutedEventArgs e)
-        {
-            txb.Text = (combobox1.Text);
-            
-
-    }
+        
 
         private void button_clr_Click(object sender, RoutedEventArgs e)
         {
-            txb.Text = null;
-            combobox1.Items.Clear();
-            check = true;
-            txa.Text = "Zamówienie usunięte.";
+                txb.Text = null;
+                txc.Text = null;
+                txd.Text = null;
+                check = true;
+                txa.Text = "Zamówienie usunięte.";
+                suma = 0;
+                cena.Text = suma.ToString();
         }
+
+
+     
+        private void button_1_Click(object sender, RoutedEventArgs e)
+        {
+
+                txb.Text += pizza1.Nazwa + Environment.NewLine;
+                txc.Text += pizza1.Skladniki + Environment.NewLine;
+                txd.Text += pizza1.Cena + Environment.NewLine;
+                suma += pizza1.Cena;
+                cena.Text = suma.ToString();
+
+
+        }
+
+        private void button_2_Click(object sender, RoutedEventArgs e)
+        {
+            txb.Text += pizza2.Nazwa + Environment.NewLine;
+            txc.Text += pizza2.Skladniki + Environment.NewLine;
+            txd.Text += pizza2.Cena + Environment.NewLine;
+            suma += pizza2.Cena;
+            cena.Text = suma.ToString();
+        }
+
+        private void button_3_Click(object sender, RoutedEventArgs e)
+        {
+            txb.Text += pizza3.Nazwa + Environment.NewLine;
+            txc.Text += pizza3.Skladniki + Environment.NewLine;
+            txd.Text += pizza3.Cena + Environment.NewLine;
+            suma += pizza3.Cena;
+            cena.Text = suma.ToString();
+        }
+
+        private void button_4_Click(object sender, RoutedEventArgs e)
+        {
+            txb.Text += pizza4.Nazwa + Environment.NewLine;
+            txc.Text += pizza4.Skladniki + Environment.NewLine;
+            txd.Text += pizza4.Cena + Environment.NewLine;
+            suma += pizza4.Cena;
+            cena.Text = suma.ToString();
+
+        }
+
+        private void button_5_Click(object sender, RoutedEventArgs e)
+        {
+            txb.Text += pizza5.Nazwa + Environment.NewLine;
+            txc.Text += pizza5.Skladniki + Environment.NewLine;
+            txd.Text += pizza5.Cena + Environment.NewLine;
+            suma += pizza5.Cena;
+            cena.Text = suma.ToString();
+        }
+
+        private void button_6_Click(object sender, RoutedEventArgs e)
+        {
+            txb.Text += pizza6.Nazwa + Environment.NewLine;
+            txc.Text += pizza6.Skladniki + Environment.NewLine;
+            txd.Text += pizza6.Cena + Environment.NewLine;
+            suma += pizza6.Cena;
+            cena.Text = suma.ToString();
+
+        }
+
+        
     }
 }

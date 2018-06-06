@@ -51,7 +51,9 @@ namespace ConsoleApplication1
                         }
                         else
                          {
-                        Console.WriteLine("Klient przesyła:" + value);
+                         DateTime data = DateTime.UtcNow.ToLocalTime();
+                         Console.WriteLine(data.ToString("hh:mm:ss"));
+                         Console.WriteLine("Zamównienie:" + Environment.NewLine + value);
                          }
                     }
                     newClient.Close();
