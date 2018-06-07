@@ -138,6 +138,8 @@ namespace Clientnaokienkach
                 pizza4.Skladniki = "sos, warzywa";
                 pizza4.Cena = 12;
                 pizza5.Nazwa = "Mięsna";
+                Opcja1.Content = "MARGARITKA";
+                Opcja1.Visibility = System.Windows.Visibility.Visible;
                 pizza5.Skladniki = "sos, salami, szynka";
                 pizza5.Cena = 14;
                 pizza6.Nazwa = "Hawajska";
@@ -165,7 +167,7 @@ namespace Clientnaokienkach
 
 
      
-        private void button_1_Click(object sender, RoutedEventArgs e)
+        private void Opcja1_Click(object sender, RoutedEventArgs e)
         {
 
                 txb.Text += pizza1.Nazwa + Environment.NewLine;
