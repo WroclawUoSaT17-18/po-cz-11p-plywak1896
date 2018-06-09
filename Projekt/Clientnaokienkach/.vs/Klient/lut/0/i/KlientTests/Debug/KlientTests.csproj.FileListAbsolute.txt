@@ -1,0 +1,13 @@
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\KlientTests.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\b\KlientTests\bin\Debug\KlientTests.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\KlientTests\Debug\KlientTests.csprojResolveAssemblyReference.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\KlientTests\Debug\KlientTests.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\KlientTests\Debug\KlientTests.csproj.CopyComplete
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\KlientTests\Debug\KlientTests.dll
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\KlientTests\Debug\KlientTests.pdb

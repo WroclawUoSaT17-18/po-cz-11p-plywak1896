@@ -43,7 +43,7 @@ namespace Clientnaokienkach
         Pizza pizza4 = new Pizza();
         Pizza pizza5 = new Pizza();
         Pizza pizza6 = new Pizza();
-        int suma;
+        public int suma;
 
 
         private void button_con_Click(object sender, RoutedEventArgs e)
@@ -138,13 +138,28 @@ namespace Clientnaokienkach
                 pizza4.Skladniki = "sos, warzywa";
                 pizza4.Cena = 12;
                 pizza5.Nazwa = "Mięsna";
-                Opcja1.Content = "MARGARITKA";
-                Opcja1.Visibility = System.Windows.Visibility.Visible;
                 pizza5.Skladniki = "sos, salami, szynka";
                 pizza5.Cena = 14;
                 pizza6.Nazwa = "Hawajska";
                 pizza6.Skladniki = "sos, szynka, ananas";
                 pizza6.Cena = 12;
+                //Idiotoodporny kawałek kodu 
+                button_1.Content = pizza1.Nazwa;
+                button_2.Content = pizza2.Nazwa;
+                button_3.Content = pizza3.Nazwa;
+                button_4.Content = pizza4.Nazwa;
+                button_5.Content = pizza5.Nazwa;
+                button_6.Content = pizza6.Nazwa;
+                button_1.Visibility = System.Windows.Visibility.Visible;
+                button_2.Visibility = System.Windows.Visibility.Visible;
+                button_3.Visibility = System.Windows.Visibility.Visible;
+                button_4.Visibility = System.Windows.Visibility.Visible;
+                button_5.Visibility = System.Windows.Visibility.Visible;
+                button_6.Visibility = System.Windows.Visibility.Visible;
+                button_clr.Visibility = System.Windows.Visibility.Visible;
+                button_new.Visibility = System.Windows.Visibility.Hidden;
+
+
 
                 txa.Text = "Stworzono nowe zamówienie.";
                 txb.Text = null;
@@ -163,11 +178,19 @@ namespace Clientnaokienkach
                 txa.Text = "Zamówienie usunięte.";
                 suma = 0;
                 cena.Text = suma.ToString();
+                button_new.Visibility = System.Windows.Visibility.Visible;
+                button_1.Visibility = System.Windows.Visibility.Hidden;
+                button_2.Visibility = System.Windows.Visibility.Hidden;
+                button_3.Visibility = System.Windows.Visibility.Hidden;
+                button_4.Visibility = System.Windows.Visibility.Hidden;
+                button_5.Visibility = System.Windows.Visibility.Hidden;
+                button_6.Visibility = System.Windows.Visibility.Hidden;
+                button_clr.Visibility = System.Windows.Visibility.Hidden;
         }
 
 
-     
-        private void Opcja1_Click(object sender, RoutedEventArgs e)
+
+        private void button_1_Click (object sender, RoutedEventArgs e)
         {
 
                 txb.Text += pizza1.Nazwa + Environment.NewLine;

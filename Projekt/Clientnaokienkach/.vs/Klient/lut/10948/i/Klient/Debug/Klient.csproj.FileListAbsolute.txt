@@ -1,3 +1,0 @@
-C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient\Debug\App.g.cs
-C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient\Debug\Klient_MarkupCompile.cache
-C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\0\i\Klient\Debug\Klient.csprojResolveAssemblyReference.cache
