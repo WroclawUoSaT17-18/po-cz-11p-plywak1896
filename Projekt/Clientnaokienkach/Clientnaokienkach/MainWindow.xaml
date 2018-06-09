@@ -20,7 +20,11 @@
 		<TextBlock x:Name="txa" HorizontalAlignment="Left" Height="19" Margin="10,122,0,0" TextWrapping="Wrap" Text="Stwórz nowe zamówienie." VerticalAlignment="Top" Width="265"/>
 		<TextBlock x:Name="txb" HorizontalAlignment="Left" Height="73" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
 		<Button x:Name="button_clr" Content="Usuń" HorizontalAlignment="Left" Height="40" Margin="280,77,0,0" VerticalAlignment="Top" Width="130" Click="button_clr_Click"/>
+<<<<<<< HEAD
 		<Button x:Name="button_1" Content=pizza1.Nazwa HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="1,20,0,0" Height="75" Grid.Column="1" Click="button_1_Click"/>
+=======
+		<Button x:Name="Opcja1" Content="Marysia" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="1,20,0,0" Height="75" Grid.Column="1" Click="Opcja1_Click" Visibility="Hidden"/>
+>>>>>>> dd9930156b43ded8d1465c15ea15d69fee63e8bc
 		<Button x:Name="button_3" Content="Serowa" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="161,20,0,0" Height="75" Click="button_3_Click"/>
 		<Button x:Name="button_5" Content="Mięsna" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="81,107,0,0" Height="75" Click="button_5_Click"/>
 		<Button x:Name="button_2" Content="Salami" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="81,20,0,0" Height="75" Click="button_2_Click"/>
