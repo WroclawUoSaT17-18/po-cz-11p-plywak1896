@@ -16,6 +16,7 @@ using System.Net.Sockets;
 using System.Net;
 using System.IO;
 using System.ComponentModel;
+using System.Threading;
 
 namespace Clientnaokienkach
 {
@@ -54,6 +55,12 @@ namespace Clientnaokienkach
 
                 externalClient.Connect("127.0.0.1", 1024); // próba połączenia
                 txt_sts.Text = "Połączono.";
+                button_dis.Visibility = System.Windows.Visibility.Visible;
+                button_con.Visibility = System.Windows.Visibility.Hidden;
+                button_new.Visibility = System.Windows.Visibility.Visible;
+                txa.Visibility = System.Windows.Visibility.Visible;
+                cena.Visibility = System.Windows.Visibility.Visible;
+                statyczny.Visibility = System.Windows.Visibility.Visible;
 
             }
 
@@ -71,7 +78,14 @@ namespace Clientnaokienkach
             {
                 BinaryWriter writer = new BinaryWriter(externalClient.GetStream()); // nowy strumień
                 writer.Write(tekst);
-                
+
+                MessageBox.Show("Zamówienie zostało wysłane ;) ");
+
+
+
+
+
+
 
 
 
@@ -82,6 +96,7 @@ namespace Clientnaokienkach
                 txt_sts.Text = "Brak połączenia.";
 
             }
+            
 
         }
 
@@ -99,6 +114,20 @@ namespace Clientnaokienkach
 
                 externalClient.Close();
                 txt_sts.Text = "Brak połączenia.";
+                button_dis.Visibility = System.Windows.Visibility.Hidden;
+                button_send.Visibility = System.Windows.Visibility.Hidden;
+                button_new.Visibility = System.Windows.Visibility.Hidden;
+                button_con.Visibility = System.Windows.Visibility.Visible;
+                button_clr.Visibility = System.Windows.Visibility.Hidden;
+                button_1.Visibility = System.Windows.Visibility.Hidden;
+                button_2.Visibility = System.Windows.Visibility.Hidden;
+                button_3.Visibility = System.Windows.Visibility.Hidden;
+                button_4.Visibility = System.Windows.Visibility.Hidden;
+                button_5.Visibility = System.Windows.Visibility.Hidden;
+                button_6.Visibility = System.Windows.Visibility.Hidden;
+                txa.Visibility = System.Windows.Visibility.Hidden;
+                cena.Visibility = System.Windows.Visibility.Hidden;
+                statyczny.Visibility = System.Windows.Visibility.Hidden;
             }
             catch
             {
@@ -158,6 +187,7 @@ namespace Clientnaokienkach
                 button_6.Visibility = System.Windows.Visibility.Visible;
                 button_clr.Visibility = System.Windows.Visibility.Visible;
                 button_new.Visibility = System.Windows.Visibility.Hidden;
+                button_send.Visibility = System.Windows.Visibility.Visible;
 
 
 
@@ -186,6 +216,7 @@ namespace Clientnaokienkach
                 button_5.Visibility = System.Windows.Visibility.Hidden;
                 button_6.Visibility = System.Windows.Visibility.Hidden;
                 button_clr.Visibility = System.Windows.Visibility.Hidden;
+                button_send.Visibility = System.Windows.Visibility.Hidden;
         }
 
 

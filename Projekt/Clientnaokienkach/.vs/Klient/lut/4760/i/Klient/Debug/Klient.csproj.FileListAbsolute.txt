@@ -1,0 +1,15 @@
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\b\Clientnaokienkach\bin\Debug\Klient.exe.config
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\b\Clientnaokienkach\bin\Debug\Klient.exe
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\b\Clientnaokienkach\bin\Debug\Klient.pdb
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\MainWindow.g.cs
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\App.g.cs
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient_MarkupCompile.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient_MarkupCompile.lref
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\MainWindow.baml
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient.g.resources
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Clientnaokienkach.Properties.Resources.resources
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient.csproj.GenerateResource.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient.csproj.CoreCompileInputs.cache
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient.csproj.CopyComplete
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient.exe
+C:\Users\Ezojil\Documents\GitHub\po-cz-11p-plywak1896\Projekt\Clientnaokienkach\.vs\Klient\lut\4760\i\Klient\Debug\Klient.pdb

@@ -12,12 +12,12 @@
 			<ColumnDefinition Width="211*"/>
 			<ColumnDefinition Width="134*"/>
 		</Grid.ColumnDefinitions>
-		<Button x:Name="button_send" Content="Wyślij" HorizontalAlignment="Left" Height="40" Margin="10,77,0,0" VerticalAlignment="Top" Width="130" Click="button_send_Click"/>
+		<Button x:Name="button_send" Content="Wyślij" HorizontalAlignment="Left" Height="40" Margin="10,77,0,0" VerticalAlignment="Top" Width="130" Click="button_send_Click" Visibility="Hidden"/>
 		<Button x:Name="button_con" Content="Połącz" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="130" IsCancel="True" Click="button_con_Click"/>
-		<Button x:Name="button_dis" Content="Rozłącz" HorizontalAlignment="Left" Margin="145,10,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="button_dis_Click"/>
+		<Button x:Name="button_dis" Content="Rozłącz" HorizontalAlignment="Left" Margin="145,10,0,0" VerticalAlignment="Top" Width="130" Height="40" Click="button_dis_Click" Visibility="Hidden"/>
 		<TextBlock x:Name="txt_sts" HorizontalAlignment="Left" Height="17" Margin="10,55,0,0" TextWrapping="Wrap" Text="Brak połączenia" VerticalAlignment="Top" Width="111"/>
-		<Button x:Name="button_new" Content="Nowe zamówienie" HorizontalAlignment="Left" Height="40" Margin="145,77,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click"/>
-		<TextBlock x:Name="txa" HorizontalAlignment="Left" Height="19" Margin="10,122,0,0" TextWrapping="Wrap" Text="Stwórz nowe zamówienie." VerticalAlignment="Top" Width="265"/>
+		<Button x:Name="button_new" Content="Nowe zamówienie" HorizontalAlignment="Left" Height="40" Margin="145,77,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click" Visibility="Hidden"/>
+		<TextBlock x:Name="txa" HorizontalAlignment="Left" Height="19" Margin="10,122,0,0" TextWrapping="Wrap" Text="Stwórz nowe zamówienie." VerticalAlignment="Top" Width="265" Visibility="Hidden"/>
 		<TextBlock x:Name="txb" HorizontalAlignment="Left" Height="73" Margin="10,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
 		<Button x:Name="button_clr" Content="Usuń" HorizontalAlignment="Left" Height="40" Margin="280,77,0,0" VerticalAlignment="Top" Width="130" Click="button_clr_Click" Visibility="Hidden"/>
 
@@ -30,8 +30,8 @@
 		<Button x:Name="button_6" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="161,107,0,0" Grid.Column="1" Height="75" Click="button_6_Click" Visibility="Hidden"/>
 		<TextBlock x:Name="txc" HorizontalAlignment="Left" Height="73" Margin="145,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
 		<TextBlock x:Name="txd" HorizontalAlignment="Left" Height="73" Margin="280,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
-		<TextBlock x:Name="statyczny" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="1,186,0,0" TextWrapping="Wrap" Text="Cena:" VerticalAlignment="Top" Width="30"/>
-		<TextBlock x:Name="cena" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Grid.Column="1" Margin="36,186,0,0"/>
+		<TextBlock x:Name="statyczny" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="1,186,0,0" TextWrapping="Wrap" Text="Cena:" VerticalAlignment="Top" Width="30" Visibility="Hidden"/>
+		<TextBlock x:Name="cena" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Grid.Column="1" Margin="36,186,0,0" Visibility="Hidden"/>
 
 
 
